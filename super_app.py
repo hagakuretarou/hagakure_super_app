@@ -44,8 +44,6 @@ def app():
     st.image("hagakurekun.png",width=200)
     tab1,tab2 = st.tabs(["日本の天気予報アプリ","職業探し"])
     with tab1:
-        st.write("page1です")
-        st.text("ここをチーム１が編集します!")
         st.title('日本の天気予報アプリ')
         st.link_button('市町村コード一覧','https://weather.tsukumijima.net/primary_area.xml')
         city_id = st.text_input('市町村コードを入力', '400040')
